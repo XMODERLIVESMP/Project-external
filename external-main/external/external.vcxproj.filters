@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{9193bbae-e4ed-4b6d-b844-9859db184dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\memory">
+      <UniqueIdentifier>{07cfaa2e-d81f-401a-aa6e-05388cbbae73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\var">
+      <UniqueIdentifier>{c1a449d7-78cd-42da-89e3-0c60551fd7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\xorstr">
+      <UniqueIdentifier>{3a962fc3-607b-41f9-b120-ce657bcd3acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{4475b62b-6b8d-4d29-92ef-1336f5b666d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheats">
+      <UniqueIdentifier>{4519f7bc-1371-449b-a7fd-dc6b118d92b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheats\bhop">
+      <UniqueIdentifier>{ea31dc5b-d35c-415c-b44b-db2d6d846530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheats\glow">
+      <UniqueIdentifier>{d286b7b5-6d21-4525-9543-683ca9e1bfc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\keybind">
+      <UniqueIdentifier>{600bc4ae-9567-4ae0-8a48-bc7f1ee88da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\process">
+      <UniqueIdentifier>{3543c591-7678-4583-8315-a38cf7c1206a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\classes">
+      <UniqueIdentifier>{4a36981a-fa04-4e12-9d67-68cc1c448749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheats\triggerbot">
+      <UniqueIdentifier>{9522a8e2-d518-46b0-9e4f-c4b9544ac212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\datatypes">
+      <UniqueIdentifier>{73113ea4-9508-47e7-9f78-d5f749301b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\lazyimporter">
+      <UniqueIdentifier>{ac5f3c1b-9dc1-4f31-985f-2d9915123ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\precompiled">
+      <UniqueIdentifier>{a8478ac4-0a80-4b7e-8532-bb54415432f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheats\skinchanger">
+      <UniqueIdentifier>{8d496cb2-0f8c-4f26-8549-90f9133eece7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheats\aimbot">
+      <UniqueIdentifier>{d6d82f66-cc70-4863-8875-e89a2df01529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\config">
+      <UniqueIdentifier>{dc99bdfa-8e54-4569-9337-abf1b401d8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\cache">
+      <UniqueIdentifier>{d2ffde6c-ba1d-4a93-afd2-f591807eee55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\cache\entity">
+      <UniqueIdentifier>{97fb2fa9-adf5-4956-be49-ca44ede461d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\cache\world">
+      <UniqueIdentifier>{ee67810e-58b4-457b-8925-fa511e95c64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheats\edgejump">
+      <UniqueIdentifier>{6a25affa-6345-489b-aeb9-8a3f18de3620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\math">
+      <UniqueIdentifier>{dc797bf0-75c7-426e-a915-ac3f765accd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\classes\entity">
+      <UniqueIdentifier>{ca0538ce-63c1-4e49-a9c6-8b1f91c879d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\classes\engine">
+      <UniqueIdentifier>{5e3b732d-4c56-4e59-a5b8-ebf922f36130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\menu">
+      <UniqueIdentifier>{2862286a-f8b2-4079-8b9f-21c9396cdd1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.hpp">
+      <Filter>utils\precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.hpp">
+      <Filter>utils\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="var.hpp">
+      <Filter>utils\var</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>utils\xorstr</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy_importer.hpp">
+      <Filter>utils\lazyimporter</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="bhop.hpp">
+      <Filter>cheats\bhop</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="glow.hpp">
+      <Filter>cheats\glow</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.hpp">
+      <Filter>utils\keybind</Filter>
+    </ClInclude>
+    <ClInclude Include="process.hpp">
+      <Filter>utils\process</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbot.hpp">
+      <Filter>cheats\triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.hpp">
+      <Filter>sdk\datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="skinchanger.hpp">
+      <Filter>cheats\skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.hpp">
+      <Filter>cheats\aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="config.hpp">
+      <Filter>utils\config</Filter>
+    </ClInclude>
+    <ClInclude Include="archivex.hpp">
+      <Filter>utils\config</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>utils\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="safe_vector.hpp">
+      <Filter>sdk\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="edgejump.hpp">
+      <Filter>cheats\edgejump</Filter>
+    </ClInclude>
+    <ClInclude Include="on_world.hpp">
+      <Filter>sdk\cache\world</Filter>
+    </ClInclude>
+    <ClInclude Include="on_entity.hpp">
+      <Filter>sdk\cache\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="qangle.hpp">
+      <Filter>sdk\datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.hpp">
+      <Filter>sdk\classes\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.hpp">
+      <Filter>sdk\classes\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="client.hpp">
+      <Filter>sdk\classes\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="convar.hpp">
+      <Filter>sdk\classes\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.hpp">
+      <Filter>sdk\classes\engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>utils\precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>utils\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="bhop.cpp">
+      <Filter>cheats\bhop</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="glow.cpp">
+      <Filter>cheats\glow</Filter>
+    </ClCompile>
+    <ClCompile Include="triggerbot.cpp">
+      <Filter>cheats\triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="skinchanger.cpp">
+      <Filter>cheats\skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>cheats\aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>utils\config</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>utils\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="edgejump.cpp">
+      <Filter>cheats\edgejump</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>sdk\classes\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>sdk\classes\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>sdk\classes\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="convar.cpp">
+      <Filter>sdk\classes\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>sdk\classes\engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
